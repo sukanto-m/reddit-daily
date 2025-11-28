@@ -601,9 +601,8 @@ def update_site_index():
         lines.append("## Daily digests")
         lines.append("")
         for date_part, fname in daily_entries:
-            rel = f"{DAILY_SUBDIR}/{fname}"
             # Use extension-less link so GitHub Pages serves HTML
-            url = f"/{DAILY_SUBDIR}/reddit_daily_{date_part}"
+            url = f"{DAILY_SUBDIR}/reddit_daily_{date_part}"
             lines.append(f"- **{date_part}** – [Daily digest]({url})")
         lines.append("")
 
@@ -611,8 +610,7 @@ def update_site_index():
         lines.append("## Weekly supercuts")
         lines.append("")
         for date_part, fname in weekly_entries:
-            rel = f"{WEEKLY_SUBDIR}/{fname}"
-            url = f"/{WEEKLY_SUBDIR}/reddit_weekly_{date_part}"
+            url = f"{WEEKLY_SUBDIR}/reddit_weekly_{date_part}"
             lines.append(f"- **{date_part}** – [Weekly recap]({url})")
         lines.append("")
 
