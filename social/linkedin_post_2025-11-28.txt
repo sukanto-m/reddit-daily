@@ -1,23 +1,16 @@
 🚀 Reddit Daily – 2025-11-28
 
-If you missed Reddit today, here’s what actually mattered 👇
+Missed Reddit today? Here’s what mattered 👇
 💡 Theme
 Solid mix of practical tips, charts, and mild hardware coping.
 
-🔥 Signals from the trenches
+🔥 Signals
 • r/MachineLearning → [D] Got burned by an Apple ICLR paper — it was withdrawn after my Public Comment.
+• r/dataisbeautiful → NYC Mayoral election exit poll—11% of self-described democratic socialists voted for Andrew Cuomo over Zohran Mamdani. 8% of MAGA voted for Mamdani. Perhaps most bizarrely—29% of MAGA Republicans voted for Curtis Sliwa, an anti-MAGA/anti-Trump figure who called Trump a "crackpot", among other things
 • r/LocalLLaMA → Yes it is possible to uncensor gpt-oss-20b - ArliAI/gpt-oss-20b-Derestricted
 
 📊 Why this matters
-Practitioners are quietly reshaping how AI gets built and deployed:
-• More focus on efficiency and local tooling
-• Visual storytelling through data (maps, charts, animations)
-• Real-world constraints driving design decisions, not just benchmarks
+People are shipping ideas in public, not polishing decks.
 
 
-
-🧭 My read
-The interesting work is happening in the margins — small models, scrappy setups, careful visualisation.
-That’s where the next wave of practical AI impact is coming from.
-
-#MachineLearning #Data #AI #RedditResearch
+#MachineLearning #AI #RedditResearch

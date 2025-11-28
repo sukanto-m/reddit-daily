@@ -1,9 +1,8 @@
 # Reddit Briefs
 
-Auto-generated index of daily and weekly Reddit digests.
+Auto-generated index
 
-## Daily digests
-
-- **2025-11-28** – [Daily digest](daily/reddit_daily_2025-11-28)
-- **2025-11-27** – [Daily digest](daily/reddit_daily_2025-11-27)
+## Daily
+- **2025-11-28** – [Daily](daily/reddit_daily_2025-11-28)
+- **2025-11-27** – [Daily](daily/reddit_daily_2025-11-27)
 
