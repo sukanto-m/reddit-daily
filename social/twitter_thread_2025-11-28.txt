@@ -1,0 +1,15 @@
+Reddit Daily – 2025-11-28
+Today’s vibe: Solid mix of practical tips, charts, and mild hardware coping.
+
+---
+
+Top stories:
+• r/MachineLearning – [D] Got burned by an Apple ICLR paper — it was withdrawn after my Public Comment
+• r/LocalLLaMA – Yes it is possible to uncensor gpt-oss-20b - ArliAI/gpt-oss-20b-Derestricted
+• r/LocalLLaMA – deepseek-ai/DeepSeek-Math-V2 · Hugging Face
+
+---
+
+By subreddit:
+• r/MachineLearning – [D] Got burned by an Apple ICLR paper — it was withdrawn after my Publ
+• r/LocalLLaMA – Yes it is possible to uncensor gpt-oss-20b - ArliAI/gpt-oss-20b-Derest
