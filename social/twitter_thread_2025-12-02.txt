@@ -1,0 +1,15 @@
+Reddit Daily – 2025-12-02
+Today’s vibe: Solid mix of practical tips, charts, and mild hardware coping.
+
+---
+
+Top stories:
+• r/LocalLLaMA – deepseek-ai/DeepSeek-V3.2 · Hugging Face
+• r/dataisbeautiful – [OC] Heatmap of “time since last appearance” for each number in French Loto draw
+• r/dataisbeautiful – [OC] MBTA commuter rail ridership by station
+
+---
+
+By subreddit:
+• r/dataisbeautiful – [OC] Heatmap of “time since last appearance” for each number in French
+• r/LocalLLaMA – deepseek-ai/DeepSeek-V3.2 · Hugging Face

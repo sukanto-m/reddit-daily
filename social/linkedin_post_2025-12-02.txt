@@ -1,0 +1,15 @@
+🚀 Reddit Daily – 2025-12-02
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+Solid mix of practical tips, charts, and mild hardware coping.
+
+🔥 Signals
+• r/dataisbeautiful → [OC] Heatmap of “time since last appearance” for each number in French Loto draws (2019–2025)
+• r/LocalLLaMA → deepseek-ai/DeepSeek-V3.2 · Hugging Face
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+
+#MachineLearning #AI #RedditResearch
