@@ -40,7 +40,7 @@ WEEKLY_SUBDIR = "weekly"
 
 # Optional: set your public site URL so social copy includes clickable links
 # Example: "https://username.github.io/Reddit-Daily"
-SITE_BASE_URL = ""
+SITE_BASE_URL = "https://sukanto.github.io/Reddit-Daily"
 
 # Local folder for Twitter/LinkedIn/Caption drafts
 SOCIAL_DIR = "social"
