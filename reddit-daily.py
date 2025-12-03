@@ -5,6 +5,7 @@ Master script to:
 2) Generate a Markdown daily digest into a GitHub Pages-friendly folder.
 3) On selected weekdays (e.g. Tue & Fri), also generate Twitter + LinkedIn copy.
 4) On Sundays, generate a weekly 'supercut' recap + social copy.
+5) Maintain an RSS feed (rss.xml) for daily digests.
 
 Posting to Twitter/LinkedIn is manual: copy-paste the generated text files.
 GitHub Pages will serve the Markdown from PAGES_CONTENT_DIR (e.g. /docs).
@@ -38,7 +39,7 @@ DAILY_SUBDIR = "daily"
 WEEKLY_SUBDIR = "weekly"
 
 # Optional: set your public site URL so social copy includes clickable links
-# Example: "https://username.github.io/reddit-daily"
+# Example: "https://username.github.io/Reddit-Daily"
 SITE_BASE_URL = ""
 
 # Local folder for Twitter/LinkedIn/Caption drafts
@@ -158,7 +159,8 @@ def build_daily_digest_markdown(date_str, posts_by_sub, generated_time_str):
 
     per_sub_blocks = []
     for sub, posts in posts_by_sub.items():
-        if not posts: continue
+        if not posts:
+            continue
         block = "### r/" + sub + "\n" + "\n".join(
             f"- ({p['score']}★) [{p['title']}]({p['url']})"
             for p in posts
@@ -203,7 +205,8 @@ def build_daily_twitter_thread(date_str, vibe, all_sorted, posts_by_sub, digest_
         f"• r/{s} – {posts_by_sub[s][0]['title'][:70]}" for s in SUBREDDITS if posts_by_sub[s]
     )
     tweets = [truncate_tweet(t) for t in (t1, t2, t3)]
-    if digest_url: tweets.append(truncate_tweet(f"Full digest: {digest_url}"))
+    if digest_url:
+        tweets.append(truncate_tweet(f"Full digest: {digest_url}"))
     return tweets
 
 
@@ -234,9 +237,10 @@ def build_weekly_supercut_markdown(week_label, posts_by_sub, generated_time_str)
 
     per_sub = []
     for sub, posts in posts_by_sub.items():
-        if not posts: continue
+        if not posts:
+            continue
         scores = [p["score"] for p in posts]
-        avg = int(sum(scores)/len(scores))
+        avg = int(sum(scores) / len(scores))
         best = max(posts, key=lambda p: p["score"])
         per_sub.append(
             f"### r/{sub}\n- Posts: **{len(posts)}**\n- Avg score: **{avg}**\n- Top: [{best['title']}]({best['url']})"
@@ -278,20 +282,97 @@ def build_weekly_twitter_thread(week_label, all_sorted, posts_by_sub, digest_url
         f"• r/{s} – {len(posts_by_sub[s])}" for s in SUBREDDITS if posts_by_sub[s]
     )
     tweets = [truncate_tweet(t) for t in (t1, t2, t3)]
-    if digest_url: tweets.append(truncate_tweet(f"Full recap: {digest_url}"))
+    if digest_url:
+        tweets.append(truncate_tweet(f"Full recap: {digest_url}"))
     return tweets
 
 
 def build_weekly_linkedin_post(week_label, posts_by_sub, digest_url=None):
     intro = f"📅 Reddit Weekly – {week_label}\nZooming out on the week 👇"
     signals = "🔥 Signals\n" + "\n".join(
-        f"• r/{s} → {max(posts_by_sub[s], key=lambda p:p['score'])['title']}"
+        f"• r/{s} → {max(posts_by_sub[s], key=lambda p: p['score'])['title']}"
         for s in SUBREDDITS if posts_by_sub[s]
     )
     why = "📊 Why this matters\nTrends reveal themselves in repetition, not noise."
     url = f"\n🔗 Full weekly digest\n{digest_url}" if digest_url else ""
     outro = "#MachineLearning #AI #WeeklyRecap"
     return "\n".join([intro, "", signals, "", why, url, "", outro]).strip() + "\n"
+
+
+# ========= RSS GENERATOR =========
+
+def update_rss_feed():
+    """
+    Generate or update rss.xml based on existing daily digests in docs/daily.
+    Only includes the last ~30 digests to keep size manageable.
+    """
+    if not os.path.isdir(DAILY_DIGEST_DIR):
+        print("[INFO] No daily digests yet; skipping RSS feed update.")
+        return
+
+    # Collect date parts from filenames
+    dates = []
+    for fname in os.listdir(DAILY_DIGEST_DIR):
+        if fname.startswith("reddit_daily_") and fname.endswith(".md"):
+            date_part = fname[len("reddit_daily_"):-3]  # strip prefix + ".md"
+            dates.append(date_part)
+
+    if not dates:
+        print("[INFO] No daily digests found; skipping RSS feed update.")
+        return
+
+    dates.sort(reverse=True)
+    dates = dates[:30]  # last 30 digests
+
+    items = []
+    for date_str in dates:
+        url = build_daily_url(date_str)
+        if not url:
+            # fallback relative URL if SITE_BASE_URL not set
+            if SITE_BASE_URL:
+                base = SITE_BASE_URL.rstrip("/")
+                url = f"{base}/{DAILY_SUBDIR}/reddit_daily_{date_str}.html"
+            else:
+                url = f"{DAILY_SUBDIR}/reddit_daily_{date_str}.html"
+
+        title = f"Reddit Daily – {date_str}"
+        # Try to parse date_str as YYYY-MM-DD
+        try:
+            d = datetime.date.fromisoformat(date_str)
+            dt = datetime.datetime.combine(d, datetime.time())
+        except Exception:
+            dt = datetime.datetime.utcnow()
+
+        pub_date = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+        description = "Daily Reddit digest covering AI, ML, and data threads."
+
+        items.append(f"""  <item>
+    <title>{title}</title>
+    <link>{url}</link>
+    <guid>{url}</guid>
+    <pubDate>{pub_date}</pubDate>
+    <description><![CDATA[{description}]]></description>
+  </item>""")
+
+    channel_link = SITE_BASE_URL or ""
+    items_xml = os.linesep.join(items)
+
+    rss_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Reddit Daily – RSS Feed</title>
+  <link>{channel_link}</link>
+  <description>Automatic digest of top posts from AI / data subreddits.</description>
+  <language>en-us</language>
+{items_xml}
+</channel>
+</rss>
+"""
+
+    rss_path = os.path.join(PAGES_CONTENT_DIR, "rss.xml")
+    with open(rss_path, "w", encoding="utf-8") as f:
+        f.write(rss_xml)
+    print(f"[OK] RSS feed updated at: {rss_path}")
 
 
 # ========= INDEX GENERATOR =========
@@ -356,19 +437,20 @@ def main():
     for sub in SUBREDDITS:
         try:
             posts = fetch_daily_top(sub)
-            posts_by_sub_daily[sub] = sorted(posts, key=lambda p:p["score"], reverse=True)
+            posts_by_sub_daily[sub] = sorted(posts, key=lambda p: p["score"], reverse=True)
             print(f"[INFO] {sub}: {len(posts)} posts")
         except Exception as e:
             print(f"[WARN] Failed {sub}: {e}")
             posts_by_sub_daily[sub] = []
 
     all_daily = [p for posts in posts_by_sub_daily.values() for p in posts]
-    all_sorted = sorted(all_daily, key=lambda p:p["score"], reverse=True)
+    all_sorted = sorted(all_daily, key=lambda p: p["score"], reverse=True)
 
     # DAILY MARKDOWN
     md = build_daily_digest_markdown(date_str, posts_by_sub_daily, ts)
     path = os.path.join(DAILY_DIGEST_DIR, f"reddit_daily_{date_str}.md")
-    with open(path, "w") as f: f.write(md)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(md)
     print(f"[OK] Daily → {path}")
 
     weekday = today.weekday()
@@ -381,13 +463,15 @@ def main():
         # TWITTER
         tw = build_daily_twitter_thread(date_str, vibe, all_sorted, posts_by_sub_daily, url)
         p = os.path.join(SOCIAL_DIR, f"twitter_thread_{date_str}.txt")
-        with open(p, "w") as f: f.write("\n\n---\n\n".join(tw))
+        with open(p, "w", encoding="utf-8") as f:
+            f.write("\n\n---\n\n".join(tw))
         print(f"[OK] Twitter → {p}")
 
         # LINKEDIN
         li = build_daily_linkedin_post(date_str, vibe, posts_by_sub_daily, url)
         p = os.path.join(SOCIAL_DIR, f"linkedin_post_{date_str}.txt")
-        with open(p, "w") as f: f.write(li)
+        with open(p, "w", encoding="utf-8") as f:
+            f.write(li)
         print(f"[OK] LinkedIn → {p}")
 
         # POETIC HACKER CAPTION
@@ -409,7 +493,8 @@ Full digest 👇
 #MachineLearning #RedditDaily #AI #Data #OpenSource
 """
         p = os.path.join(SOCIAL_DIR, f"caption_{date_str}.txt")
-        with open(p, "w") as f: f.write(cap)
+        with open(p, "w", encoding="utf-8") as f:
+            f.write(cap)
         print(f"[OK] Caption → {p}")
     else:
         print("[INFO] Not a social day")
@@ -420,18 +505,21 @@ Full digest 👇
         for sub in SUBREDDITS:
             try:
                 w = fetch_weekly_top(sub)
-                posts_by_sub_weekly[sub] = sorted(w, key=lambda p:p["score"], reverse=True)
-            except:
+                posts_by_sub_weekly[sub] = sorted(w, key=lambda p: p["score"], reverse=True)
+                print(f"[INFO] Weekly {sub}: {len(w)} posts")
+            except Exception as e:
+                print(f"[WARN] Weekly failed {sub}: {e}")
                 posts_by_sub_weekly[sub] = []
 
         all_weekly = [p for posts in posts_by_sub_weekly.values() for p in posts]
-        all_weekly_sorted = sorted(all_weekly, key=lambda p:p["score"], reverse=True)
+        all_weekly_sorted = sorted(all_weekly, key=lambda p: p["score"], reverse=True)
         start = today - datetime.timedelta(days=6)
         label = f"Week of {start} to {today}"
 
         wk = build_weekly_supercut_markdown(label, posts_by_sub_weekly, ts)
         p = os.path.join(WEEKLY_DIGEST_DIR, f"reddit_weekly_{date_str}.md")
-        with open(p, "w") as f: f.write(wk)
+        with open(p, "w", encoding="utf-8") as f:
+            f.write(wk)
         print(f"[OK] Weekly → {p}")
 
         if all_weekly:
@@ -440,15 +528,19 @@ Full digest 👇
             # TWITTER
             tw = build_weekly_twitter_thread(label, all_weekly_sorted, posts_by_sub_weekly, url2)
             p2 = os.path.join(SOCIAL_DIR, f"twitter_weekly_{date_str}.txt")
-            with open(p2, "w") as f: f.write("\n\n---\n\n".join(tw))
+            with open(p2, "w", encoding="utf-8") as f:
+                f.write("\n\n---\n\n".join(tw))
             print(f"[OK] Weekly Twitter → {p2}")
 
             # LINKEDIN
             li = build_weekly_linkedin_post(label, posts_by_sub_weekly, url2)
             p2 = os.path.join(SOCIAL_DIR, f"linkedin_weekly_{date_str}.txt")
-            with open(p2, "w") as f: f.write(li)
+            with open(p2, "w", encoding="utf-8") as f:
+                f.write(li)
             print(f"[OK] Weekly LinkedIn → {p2}")
 
+    # Update RSS + index
+    update_rss_feed()
     update_site_index()
 
 
