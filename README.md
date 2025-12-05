@@ -1,3 +1,6 @@
+![Reddit Daily Banner](banner.png)
+
+
 <p align="center">
 
 <!-- Build -->
