@@ -175,6 +175,6 @@ Topic clustering + sentiment analysis
 
 Auto-archiving to SQLite or DynamoDB
 
-🧵 License
+## 🧵 License
 
 MIT License.
