@@ -1,12 +1,12 @@
 <p align="center">
 
 <!-- Build -->
-<a href="https://github.com/<sukanto-m/reddit-daily/actions">
-  <img src="https://img.shields.io/github/actions/workflow/status/<sukanto-m>/reddit-daily/reddit_daily.yml?label=Daily%20Run&color=blue&logo=github" />
+<a href="https://github.com/sukanto-m/reddit-daily/actions">
+  <img src="https://img.shields.io/github/actions/workflow/status/sukanto-m/reddit-daily/reddit_daily.yml?label=Daily%20Run&color=blue&logo=github" />
 </a>
 
 <!-- RSS -->
-<a href="https://<sukanto-m>.github.io/Reddit-Daily/rss.xml">
+<a href="https://sukanto-m.github.io/Reddit-Daily/rss.xml">
   <img src="https://img.shields.io/badge/RSS-Feed-orange?logo=rss" />
 </a>
 
@@ -17,10 +17,10 @@
 <img src="https://img.shields.io/badge/License-MIT-green" />
 
 <!-- Last Commit -->
-<img src="https://img.shields.io/github/last-commit/<sukanto-m>/reddit-daily?color=purple" />
+<img src="https://img.shields.io/github/last-commit/sukanto-m/reddit-daily?color=purple" />
 
 <!-- Stars -->
-<img src="https://img.shields.io/github/stars/<sukanto-m>/reddit-daily?style=social" />
+<img src="https://img.shields.io/github/stars/sukanto-m/reddit-daily?style=social" />
 
 </p>
 
