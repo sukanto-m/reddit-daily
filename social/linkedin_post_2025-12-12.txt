@@ -1,0 +1,17 @@
+🚀 Reddit Daily – 2025-12-12
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+Slow burn: niche threads, thoughtful comments, fewer fireworks.
+
+🔥 Signals
+• r/dataisbeautiful → [OC] Japanese Population Distribution in Canada and the US
+• r/LocalLLaMA → New in llama.cpp: Live Model Switching
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+🔗 Full digest
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-12.html
+
+#MachineLearning #AI #RedditResearch

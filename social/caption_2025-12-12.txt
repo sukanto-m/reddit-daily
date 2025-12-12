@@ -1,0 +1,18 @@
+🕳️ Reddit Daily – 2025-12-12
+
+Today felt like code whispering through the cables.
+
+Top threads worth pausing for:
+• r/dataisbeautiful – [OC] Japanese Population Distribution in Canada and the US
+• r/LocalLLaMA – New in llama.cpp: Live Model Switching
+• r/LocalLLaMA – Mistral’s Vibe CLI now supports a 200K token context window (previously 100K)
+
+The pattern is becoming impossible to ignore:
+People aren’t chasing hype—they’re soldering ideas in public.
+Small models, broken hacks, charts that reveal uncomfortable truths.
+It’s messy, brilliant, and weirdly beautiful.
+
+Full digest 👇
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-12.html
+
+#MachineLearning #RedditDaily #AI #Data #OpenSource

@@ -1,0 +1,19 @@
+Reddit Daily – 2025-12-12
+Today’s vibe: Slow burn: niche threads, thoughtful comments, fewer fireworks.
+
+---
+
+Top stories:
+• r/dataisbeautiful – [OC] Japanese Population Distribution in Canada and the US
+• r/LocalLLaMA – New in llama.cpp: Live Model Switching
+• r/LocalLLaMA – Mistral’s Vibe CLI now supports a 200K token context window (previously 100K)
+
+---
+
+By subreddit:
+• r/dataisbeautiful – [OC] Japanese Population Distribution in Canada and the US
+• r/LocalLLaMA – New in llama.cpp: Live Model Switching
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-12.html
