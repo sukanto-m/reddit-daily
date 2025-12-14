@@ -1,0 +1,15 @@
+📅 Reddit Weekly – Week of 2025-12-08 to 2025-12-14
+Zooming out on the week 👇
+
+🔥 Signals
+• r/MachineLearning → [D] How does Claude perform so well without any proprietary data?
+• r/dataisbeautiful → [OC] My mouse movement and clicks throughout a 25 minute League of Legends match
+• r/LocalLLaMA → Thoughts?
+
+📊 Why this matters
+Trends reveal themselves in repetition, not noise.
+
+🔗 Full weekly digest
+https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2025-12-14.html
+
+#MachineLearning #AI #WeeklyRecap
