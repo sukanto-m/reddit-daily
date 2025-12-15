@@ -3,6 +3,7 @@
 Auto-generated index
 
 ## Daily
+- **2025-12-15** – [Daily](daily/reddit_daily_2025-12-15)
 - **2025-12-14** – [Daily](daily/reddit_daily_2025-12-14)
 - **2025-12-12** – [Daily](daily/reddit_daily_2025-12-12)
 - **2025-12-05** – [Daily](daily/reddit_daily_2025-12-05)
