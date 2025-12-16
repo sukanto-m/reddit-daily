@@ -1,0 +1,18 @@
+🚀 Reddit Daily – 2025-12-16
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+Solid mix of practical tips, charts, and mild hardware coping.
+
+🔥 Signals
+• r/MachineLearning → [D] Idea: add "no AI slop" as subreddit rule
+• r/dataisbeautiful → [OC] How Much Has An Average American Saved Up For Retirement - By Age/Generation
+• r/LocalLLaMA → New Google model incoming!!!
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+🔗 Full digest
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-16.html
+
+#MachineLearning #AI #RedditResearch
