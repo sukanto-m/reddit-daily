@@ -1,0 +1,19 @@
+Reddit Daily – 2025-12-19
+Today’s vibe: Solid mix of practical tips, charts, and mild hardware coping.
+
+---
+
+Top stories:
+• r/dataisbeautiful – [OC] Mapping the flow of revenue and investment between major AI companies
+• r/dataisbeautiful – [OC] Costco Locations Per 1,000,000 people in North America
+• r/dataisbeautiful – [OC] I analyzed 6.6 million 311 complaints. Here is the top cat...
+
+---
+
+By subreddit:
+• r/dataisbeautiful – [OC] Mapping the flow of revenue and investment between major AI compa
+• r/LocalLLaMA – Google's Gemma models family
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-19.html
