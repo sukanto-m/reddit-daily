@@ -3,6 +3,7 @@
 Auto-generated index
 
 ## Daily
+- **2025-12-21** – [Daily](daily/reddit_daily_2025-12-21)
 - **2025-12-20** – [Daily](daily/reddit_daily_2025-12-20)
 - **2025-12-19** – [Daily](daily/reddit_daily_2025-12-19)
 - **2025-12-18** – [Daily](daily/reddit_daily_2025-12-18)
@@ -19,5 +20,6 @@ Auto-generated index
 - **2025-11-27** – [Daily](daily/reddit_daily_2025-11-27)
 
 ## Weekly
+- **2025-12-21** – [Weekly](weekly/reddit_weekly_2025-12-21)
 - **2025-12-14** – [Weekly](weekly/reddit_weekly_2025-12-14)
 
