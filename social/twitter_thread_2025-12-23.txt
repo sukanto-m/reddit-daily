@@ -1,0 +1,19 @@
+Reddit Daily – 2025-12-23
+Today’s vibe: Slow burn: niche threads, thoughtful comments, fewer fireworks.
+
+---
+
+Top stories:
+• r/LocalLLaMA – major open-source releases this year
+• r/LocalLLaMA – GLM 4.7 is out on HF!
+• r/LocalLLaMA – I made Soprano-80M: Stream ultra-realistic TTS in &lt;15ms, up to 2000x realtime
+
+---
+
+By subreddit:
+• r/dataisbeautiful – Backing up Spotify
+• r/LocalLLaMA – major open-source releases this year
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-23.html
