@@ -1,0 +1,15 @@
+📅 Reddit Weekly – Week of 2025-12-22 to 2025-12-28
+Zooming out on the week 👇
+
+🔥 Signals
+• r/MachineLearning → [D] Best papers of 2025
+• r/dataisbeautiful → [OC] Christmas gift searches on Google
+• r/LocalLLaMA → llama.cpp appreciation post
+
+📊 Why this matters
+Trends reveal themselves in repetition, not noise.
+
+🔗 Full weekly digest
+https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2025-12-28.html
+
+#MachineLearning #AI #WeeklyRecap
