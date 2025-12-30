@@ -1,0 +1,18 @@
+🕳️ Reddit Daily – 2025-12-30
+
+Today felt like code whispering through the cables.
+
+Top threads worth pausing for:
+• r/dataisbeautiful – [OC] Türkiye's Birth Rate Collapse 2009 vs 2025
+• r/dataisbeautiful – [OC] My truck's seasonally sinusoidal, but remarkably consistent fuel economy over the pas
+• r/LocalLLaMA – Tencent just released WeDLM 8B Instruct on Hugging Face
+
+The pattern is becoming impossible to ignore:
+People aren’t chasing hype—they’re soldering ideas in public.
+Small models, broken hacks, charts that reveal uncomfortable truths.
+It’s messy, brilliant, and weirdly beautiful.
+
+Full digest 👇
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-30.html
+
+#MachineLearning #RedditDaily #AI #Data #OpenSource

@@ -1,0 +1,19 @@
+Reddit Daily – 2025-12-30
+Today’s vibe: Solid mix of practical tips, charts, and mild hardware coping.
+
+---
+
+Top stories:
+• r/dataisbeautiful – [OC] Türkiye's Birth Rate Collapse 2009 vs 2025
+• r/dataisbeautiful – [OC] My truck's seasonally sinusoidal, but remarkably consistent fuel economy ov
+• r/LocalLLaMA – Tencent just released WeDLM 8B Instruct on Hugging Face
+
+---
+
+By subreddit:
+• r/dataisbeautiful – [OC] Türkiye's Birth Rate Collapse 2009 vs 2025
+• r/LocalLLaMA – Tencent just released WeDLM 8B Instruct on Hugging Face
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2025-12-30.html
