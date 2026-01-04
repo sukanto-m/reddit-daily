@@ -1,0 +1,21 @@
+Reddit AI Weekly – Week of 2025-12-29 to 2026-01-04
+What stood out 👇
+
+---
+
+Top posts:
+• r/dataisbeautiful – [OC] My trucks sinusoidal, slowly decreasing gas mileage over the past ~7.5 year
+• r/dataisbeautiful – [OC] Japan's demographic shift (1947–2023)
+• r/dataisbeautiful – Domestic daily box office, inflation adjusted, 2004-2025 [OC]
+• r/dataisbeau...
+
+---
+
+Most active subs:
+• r/MachineLearning – 5
+• r/dataisbeautiful – 19
+• r/LocalLLaMA – 30
+
+---
+
+Full recap: https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2026-01-04.html

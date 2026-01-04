@@ -1,0 +1,15 @@
+📅 Reddit Weekly – Week of 2025-12-29 to 2026-01-04
+Zooming out on the week 👇
+
+🔥 Signals
+• r/MachineLearning → [R] New paper by DeepSeek: mHC: Manifold-Constrained Hyper-Connections
+• r/dataisbeautiful → [OC] My trucks sinusoidal, slowly decreasing gas mileage over the past ~7.5 years
+• r/LocalLLaMA → [In the Wild] Reverse-engineered a Snapchat Sextortion Bot: It’s running a raw Llama-7B instance with a 2048 token window.
+
+📊 Why this matters
+Trends reveal themselves in repetition, not noise.
+
+🔗 Full weekly digest
+https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2026-01-04.html
+
+#MachineLearning #AI #WeeklyRecap
