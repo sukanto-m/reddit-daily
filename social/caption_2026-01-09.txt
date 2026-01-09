@@ -1,0 +1,18 @@
+🕳️ Reddit Daily – 2026-01-09
+
+Today felt like code whispering through the cables.
+
+Top threads worth pausing for:
+• r/dataisbeautiful – [OC] US Presidential Approval Rating
+• r/dataisbeautiful – [OC]Natural Seasonal Availability of a Cheeseburger
+• r/LocalLLaMA – Jensen Huang saying "AI" 121 times during the NVIDIA CES keynote - cut with one prompt
+
+The pattern is becoming impossible to ignore:
+People aren’t chasing hype—they’re soldering ideas in public.
+Small models, broken hacks, charts that reveal uncomfortable truths.
+It’s messy, brilliant, and weirdly beautiful.
+
+Full digest 👇
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-09.html
+
+#MachineLearning #RedditDaily #AI #Data #OpenSource
