@@ -1,0 +1,21 @@
+Reddit AI Weekly – Week of 2026-01-05 to 2026-01-11
+What stood out 👇
+
+---
+
+Top posts:
+• r/dataisbeautiful – [OC] Epic Games Store grew users by 173% over 6 years. Third-party game revenue 
+• r/dataisbeautiful – [OC] US Presidential Approval Rating
+• r/dataisbeautiful – [OC] Comparing City and State Subreddits in the US
+• r/LocalLLaMA – The reason why...
+
+---
+
+Most active subs:
+• r/MachineLearning – 5
+• r/dataisbeautiful – 35
+• r/LocalLLaMA – 48
+
+---
+
+Full recap: https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2026-01-11.html

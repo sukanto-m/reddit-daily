@@ -1,0 +1,15 @@
+📅 Reddit Weekly – Week of 2026-01-05 to 2026-01-11
+Zooming out on the week 👇
+
+🔥 Signals
+• r/MachineLearning → [R] DeepSeek-R1’s paper was updated 2 days ago, expanding from 22 pages to 86 pages and adding a substantial amount of detail.
+• r/dataisbeautiful → [OC] Epic Games Store grew users by 173% over 6 years. Third-party game revenue grew 1.6%. They trained 295 million people to grab free games and leave.
+• r/LocalLLaMA → The reason why RAM has become so expensive
+
+📊 Why this matters
+Trends reveal themselves in repetition, not noise.
+
+🔗 Full weekly digest
+https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2026-01-11.html
+
+#MachineLearning #AI #WeeklyRecap
