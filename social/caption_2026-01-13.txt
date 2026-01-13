@@ -1,0 +1,18 @@
+🕳️ Reddit Daily – 2026-01-13
+
+Today felt like code whispering through the cables.
+
+Top threads worth pausing for:
+• r/dataisbeautiful – A Quarter Century of Television [OC]
+• r/LocalLLaMA – GitHub - deepseek-ai/Engram: Conditional Memory via Scalable Lookup: A New Axis of Sparsit
+• r/LocalLLaMA – [Release] Eva-4B: Specialized Financial Evasion Detection (Based on Qwen3-4B). Outperforms
+
+The pattern is becoming impossible to ignore:
+People aren’t chasing hype—they’re soldering ideas in public.
+Small models, broken hacks, charts that reveal uncomfortable truths.
+It’s messy, brilliant, and weirdly beautiful.
+
+Full digest 👇
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-13.html
+
+#MachineLearning #RedditDaily #AI #Data #OpenSource

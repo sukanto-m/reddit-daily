@@ -1,0 +1,18 @@
+🚀 Reddit Daily – 2026-01-13
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+High-signal chaos: big scores, busy threads, almost no cheap takes.
+
+🔥 Signals
+• r/MachineLearning → [R] Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings
+• r/dataisbeautiful → A Quarter Century of Television [OC]
+• r/LocalLLaMA → GitHub - deepseek-ai/Engram: Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+🔗 Full digest
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-13.html
+
+#MachineLearning #AI #RedditResearch

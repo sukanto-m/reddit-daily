@@ -1,0 +1,20 @@
+Reddit Daily – 2026-01-13
+Today’s vibe: High-signal chaos: big scores, busy threads, almost no cheap takes.
+
+---
+
+Top stories:
+• r/dataisbeautiful – A Quarter Century of Television [OC]
+• r/LocalLLaMA – GitHub - deepseek-ai/Engram: Conditional Memory via Scalable Lookup: A New Axis 
+• r/LocalLLaMA – [Release] Eva-4B: Specialized Financial Evasion Detection (Based on Qwen3-4B). O
+
+---
+
+By subreddit:
+• r/MachineLearning – [R] Extending the Context of Pretrained LLMs by Dropping Their Positio
+• r/dataisbeautiful – A Quarter Century of Television [OC]
+• r/LocalLLaMA – GitHub - deepseek-ai/Engram: Conditional Memory via Scalable Lookup: A
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-13.html
