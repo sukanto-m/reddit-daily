@@ -1,0 +1,18 @@
+🕳️ Reddit Daily – 2026-01-20
+
+Today felt like code whispering through the cables.
+
+Top threads worth pausing for:
+• r/dataisbeautiful – [OC] Interactive 3D Climate Spiral
+• r/LocalLLaMA – zai-org/GLM-4.7-Flash · Hugging Face
+• r/dataisbeautiful – [OC] I tracked my 2025 alcohol consumption
+
+The pattern is becoming impossible to ignore:
+People aren’t chasing hype—they’re soldering ideas in public.
+Small models, broken hacks, charts that reveal uncomfortable truths.
+It’s messy, brilliant, and weirdly beautiful.
+
+Full digest 👇
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-20.html
+
+#MachineLearning #RedditDaily #AI #Data #OpenSource

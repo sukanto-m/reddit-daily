@@ -1,0 +1,17 @@
+🚀 Reddit Daily – 2026-01-20
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+Solid mix of practical tips, charts, and mild hardware coping.
+
+🔥 Signals
+• r/dataisbeautiful → [OC] Interactive 3D Climate Spiral
+• r/LocalLLaMA → zai-org/GLM-4.7-Flash · Hugging Face
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+🔗 Full digest
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-20.html
+
+#MachineLearning #AI #RedditResearch

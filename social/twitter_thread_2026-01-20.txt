@@ -1,0 +1,19 @@
+Reddit Daily – 2026-01-20
+Today’s vibe: Solid mix of practical tips, charts, and mild hardware coping.
+
+---
+
+Top stories:
+• r/dataisbeautiful – [OC] Interactive 3D Climate Spiral
+• r/LocalLLaMA – zai-org/GLM-4.7-Flash · Hugging Face
+• r/dataisbeautiful – [OC] I tracked my 2025 alcohol consumption
+
+---
+
+By subreddit:
+• r/dataisbeautiful – [OC] Interactive 3D Climate Spiral
+• r/LocalLLaMA – zai-org/GLM-4.7-Flash · Hugging Face
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-20.html
