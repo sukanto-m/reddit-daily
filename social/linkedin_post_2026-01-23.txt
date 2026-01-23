@@ -1,0 +1,18 @@
+🚀 Reddit Daily – 2026-01-23
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+High-signal chaos: big scores, busy threads, almost no cheap takes.
+
+🔥 Signals
+• r/MachineLearning → [D] 100 Hallucinated Citations Found in 51 Accepted Papers at NeurIPS 2025
+• r/dataisbeautiful → [OC] Deportations up, job growth down: Trump’s second term so far – in charts
+• r/LocalLLaMA → Qwen dev on Twitter!!
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+🔗 Full digest
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-23.html
+
+#MachineLearning #AI #RedditResearch
