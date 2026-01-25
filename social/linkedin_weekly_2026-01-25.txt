@@ -1,0 +1,15 @@
+📅 Reddit Weekly – Week of 2026-01-19 to 2026-01-25
+Zooming out on the week 👇
+
+🔥 Signals
+• r/MachineLearning → [D] 100 Hallucinated Citations Found in 51 Accepted Papers at NeurIPS 2025
+• r/dataisbeautiful → [OC] I tracked every sexual encounter between my fiancé and me in 2025
+• r/LocalLLaMA → 768Gb Fully Enclosed 10x GPU Mobile AI Build
+
+📊 Why this matters
+Trends reveal themselves in repetition, not noise.
+
+🔗 Full weekly digest
+https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2026-01-25.html
+
+#MachineLearning #AI #WeeklyRecap
