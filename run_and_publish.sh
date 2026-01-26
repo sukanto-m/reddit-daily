@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-REPO_DIR="/Users/sukanto/Desktop/CS50/Reddit-Daily"
-PYTHON_BIN="/Users/sukanto/Desktop/CS50/venv/bin/python"
+REPO_DIR="/Users/sukanto/NextCloudSync/Projects/reddit-daily"
+PYTHON_BIN="$REPO_DIR/venv/bin/python"
 BRANCH="main"   # change if your main branch is named differently
 
 cd "$REPO_DIR"
@@ -11,6 +11,13 @@ echo "[INFO] Running reddit-daily.py..."
 "$PYTHON_BIN" reddit-daily.py
 
 echo "[INFO] Updating git repo..."
+
+# Pull latest changes first to avoid conflicts
+echo "[INFO] Pulling latest changes from remote..."
+git pull --rebase origin "$BRANCH" || {
+    echo "[ERROR] Failed to pull/rebase. Manual intervention needed."
+    exit 1
+}
 
 # Stage only the things this pipeline touches
 git add docs social reddit-daily.py
