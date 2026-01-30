@@ -1,0 +1,17 @@
+🚀 Reddit Daily – 2026-01-30
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+Solid mix of practical tips, charts, and mild hardware coping.
+
+🔥 Signals
+• r/dataisbeautiful → [OC] Rep. Debbie Schultz (D-FL) estimated to have made +495% on her mining-focused portfolio
+• r/LocalLLaMA → GitHub trending this week: half the repos are agent frameworks. 90% will be dead in 1 week.
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+🔗 Full digest
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-01-30.html
+
+#MachineLearning #AI #RedditResearch
