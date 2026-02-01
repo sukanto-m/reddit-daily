@@ -1,0 +1,15 @@
+📅 Reddit Weekly – Week of 2026-01-26 to 2026-02-01
+Zooming out on the week 👇
+
+🔥 Signals
+• r/MachineLearning → [D] Some thoughts about an elephant in the room no one talks about
+• r/dataisbeautiful → [OC] End of year dating app review! (21M living in London)
+• r/LocalLLaMA → Yann LeCun says the best open models are not coming from the West. Researchers across the field are using Chinese models. Openness drove AI progress. Close access, and the West risks slowing itself.
+
+📊 Why this matters
+Trends reveal themselves in repetition, not noise.
+
+🔗 Full weekly digest
+https://sukanto.github.io/Reddit-Daily/weekly/reddit_weekly_2026-02-01.html
+
+#MachineLearning #AI #WeeklyRecap
