@@ -1,0 +1,19 @@
+Reddit Daily – 2026-02-06
+Today’s vibe: Slow burn: niche threads, thoughtful comments, fewer fireworks.
+
+---
+
+Top stories:
+• r/dataisbeautiful – [OC] Estimated stock returns of US lawmakers in the last 3 months: Reps +6.3%, D
+• r/dataisbeautiful – Ideological leanings of current United States Supreme Court justices [OC]
+• r/LocalLLaMA – Google Research announces Sequential Attention:...
+
+---
+
+By subreddit:
+• r/dataisbeautiful – [OC] Estimated stock returns of US lawmakers in the last 3 months: Rep
+• r/LocalLLaMA – Google Research announces Sequential Attention: Making AI models leane
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-02-06.html

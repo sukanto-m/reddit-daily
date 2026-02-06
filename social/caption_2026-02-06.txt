@@ -1,0 +1,18 @@
+🕳️ Reddit Daily – 2026-02-06
+
+Today felt like code whispering through the cables.
+
+Top threads worth pausing for:
+• r/dataisbeautiful – [OC] Estimated stock returns of US lawmakers in the last 3 months: Reps +6.3%, Dems +0.8%
+• r/dataisbeautiful – Ideological leanings of current United States Supreme Court justices [OC]
+• r/LocalLLaMA – Google Research announces Sequential Attention: Making AI models leaner and faster without
+
+The pattern is becoming impossible to ignore:
+People aren’t chasing hype—they’re soldering ideas in public.
+Small models, broken hacks, charts that reveal uncomfortable truths.
+It’s messy, brilliant, and weirdly beautiful.
+
+Full digest 👇
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-02-06.html
+
+#MachineLearning #RedditDaily #AI #Data #OpenSource

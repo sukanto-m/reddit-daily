@@ -1,0 +1,17 @@
+🚀 Reddit Daily – 2026-02-06
+
+Missed Reddit today? Here’s what mattered 👇
+💡 Theme
+Slow burn: niche threads, thoughtful comments, fewer fireworks.
+
+🔥 Signals
+• r/dataisbeautiful → [OC] Estimated stock returns of US lawmakers in the last 3 months: Reps +6.3%, Dems +0.8%
+• r/LocalLLaMA → Google Research announces Sequential Attention: Making AI models leaner and faster without sacrificing accuracy
+
+📊 Why this matters
+People are shipping ideas in public, not polishing decks.
+
+🔗 Full digest
+https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-02-06.html
+
+#MachineLearning #AI #RedditResearch
