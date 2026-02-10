@@ -1,0 +1,20 @@
+Reddit Daily – 2026-02-10
+Today’s vibe: Slow burn: niche threads, thoughtful comments, fewer fireworks.
+
+---
+
+Top stories:
+• r/dataisbeautiful – Second Most Spoken Language in the USA &amp; Canada [OC]
+• r/LocalLLaMA – Bad news for local bros
+• r/dataisbeautiful – [OC] Age Distribution of Winter Olympic Athletes, Milan 2026
+
+---
+
+By subreddit:
+• r/MachineLearning – [P] A Python library processing geospatial data for GNNs with PyTorch 
+• r/dataisbeautiful – Second Most Spoken Language in the USA &amp; Canada [OC]
+• r/LocalLLaMA – Bad news for local bros
+
+---
+
+Full digest: https://sukanto.github.io/Reddit-Daily/daily/reddit_daily_2026-02-10.html
